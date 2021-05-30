@@ -3,12 +3,10 @@
 Contracts and tests setup 
 
 
-Need to add .ENV for alchemy, coinmarketcap, etherscan for mainnet forking
-```
-ALCHEMY_API_KEY=
-COINMARKETCAP=
-ETHERSCAN=
+## Install Packages
 
+```
+yarn install
 ```
 
 ## Compile
@@ -30,3 +28,12 @@ yarn local
 yarn deploy
 ```
 
+
+
+Optionally - Need to add .ENV for alchemy for mainnet forking
+```
+ALCHEMY_API_KEY=
+COINMARKETCAP=
+ETHERSCAN=
+
+```
