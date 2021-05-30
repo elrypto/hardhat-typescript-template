@@ -1,0 +1,46 @@
+
+.DS_Store
+
+
+# Dependency directories
+node_modules/
+
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+
+# dotenv environment variables file
+.env
+.env.test
+
+
+# yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+
+
+cache/
+.replit
+
+#Hardhat files
+cache
+artifacts
+
+# typechain
+typechain/
+
+# sol coverage
+coverage.json
+coverage/
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
