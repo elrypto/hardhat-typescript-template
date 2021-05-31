@@ -27,6 +27,7 @@
     "ethers": "^5.0.32",
     "fs-extra": "^9.1.0",
     "hardhat": "^2.1.1",
+    "hardhat-deploy": "^0.7.10",
     "hardhat-gas-reporter": "^1.0.4",
     "openzeppelin-contracts-4": "npm:@openzeppelin/contracts@4.0.0",
     "prettier": "^2.2.1",
