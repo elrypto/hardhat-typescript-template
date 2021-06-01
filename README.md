@@ -19,12 +19,17 @@ yarn compile
 
 ```
 yarn test
+
+or
+
+yarn local        (in seperate shell)
+yarn test-local
 ```
 
 ## Deploy
 
 ```
-yarn local
+yarn local         (in seperate shell)
 yarn deploy
 
 or

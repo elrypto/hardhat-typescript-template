@@ -9,7 +9,7 @@ import {
 
 
 
-describe("SiloTokenTest", () => {
+describe("TmpTokenTest", () => {
   let accounts: Signer[];
   let owner: Wallet;
   let a1: Wallet;
@@ -54,6 +54,10 @@ describe("SiloTokenTest", () => {
 
     // Owner balance shouldn't have changed.
     expect(await tmpToken.balanceOf(owner.address)).to.equal(ownerBalance);
+  });
+
+  it("Should log a message", async() => {
+    await tmpToken.doLog();
   });
   
 });
