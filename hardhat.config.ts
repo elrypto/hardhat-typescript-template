@@ -23,10 +23,10 @@ const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      // forking: {
-      //   url: ALCHEMY_MAINNET,
-      //   blockNumber: 12268090,
-      // },
+      forking: {
+        url: ALCHEMY_MAINNET,
+        blockNumber: 12268090,
+      },
       chainId: 1337,
     },
     // kovan: {
